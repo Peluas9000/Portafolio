@@ -1,4 +1,4 @@
-# ⚡ Ayoub BenJaddi | Portfolio Profesional 
+# ⚡ Ayoub BenJaddi | Portfolio Profesional (CARPETA FOTOS)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-In_Development-FF8C00?style=for-the-badge" alt="Status">
@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
 </p>
 
-## 🚀 Estado del Proyecto: En Construcción
+## 🚀 Estado del Proyecto: En Construcción(CARPETA FOTOS)
 Este repositorio contiene el código fuente de mi portfolio profesional. Actualmente se encuentra en fase de desarrollo activo y **el despliegue oficial y definitivo en producción (vía Vercel) está programado para el 10 de abril**. 
 
 El objetivo de este proyecto no es solo mostrar mi trabajo, sino servir como una demostración técnica de mis habilidades arquitectónicas en el Frontend, aplicando estándares de la industria y código limpio.
