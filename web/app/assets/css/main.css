@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary;
+    min-height: max(884px, 100dvh);
+  }
+}
+
+@layer components {
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+  
+  .glass-card {
+    background: rgba(46, 52, 71, 0.4);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(60, 74, 66, 0.15);
+  }
+
+  /* Accessibility skip link */
+  .skip-link {
+    @apply absolute -top-40 left-0 bg-primary text-on-primary px-4 py-2 z-[100] focus-visible:top-0 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary-container;
+  }
+}

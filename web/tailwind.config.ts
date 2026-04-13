@@ -1,0 +1,67 @@
+import type { Config } from 'tailwindcss'
+import forms from '@tailwindcss/forms'
+import containerQueries from '@tailwindcss/container-queries'
+
+export default <Partial<Config>>{
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "surface-bright": "#33394c",
+        "surface-container-highest": "#2e3447",
+        "primary": "#4edea3",
+        "tertiary-fixed-dim": "#ffb3af",
+        "secondary": "#9ed2b5",
+        "inverse-on-surface": "#2a3043",
+        "on-tertiary-fixed": "#410005",
+        "primary-fixed": "#6ffbbe",
+        "primary-container": "#10b981",
+        "secondary-container": "#21523c",
+        "surface-container-low": "#151b2d",
+        "on-secondary-fixed-variant": "#1e4f3a",
+        "on-error": "#690005",
+        "on-secondary": "#013824",
+        "on-primary-fixed": "#002113",
+        "on-secondary-container": "#91c4a8",
+        "outline-variant": "#3c4a42",
+        "error": "#ffb4ab",
+        "on-primary-container": "#00422b",
+        "error-container": "#93000a",
+        "primary-fixed-dim": "#4edea3",
+        "surface-container": "#191f31",
+        "outline": "#86948a",
+        "on-primary": "#003824",
+        "on-tertiary": "#650911",
+        "on-secondary-fixed": "#002113",
+        "background": "#0c1324",
+        "on-surface": "#dce1fb",
+        "secondary-fixed": "#baeed1",
+        "tertiary-fixed": "#ffdad7",
+        "surface-variant": "#2e3447",
+        "inverse-primary": "#006c49",
+        "surface-container-lowest": "#070d1f",
+        "tertiary": "#ffb3af",
+        "on-error-container": "#ffdad6",
+        "surface-container-high": "#23293c",
+        "inverse-surface": "#dce1fb",
+        "surface-dim": "#0c1324",
+        "secondary-fixed-dim": "#9ed2b5",
+        "on-surface-variant": "#bbcabf",
+        "tertiary-container": "#fc7c78",
+        "on-tertiary-fixed-variant": "#842225",
+        "on-tertiary-container": "#711419",
+        "surface-tint": "#4edea3",
+        "surface": "#0c1324",
+        "on-primary-fixed-variant": "#005236",
+        "on-background": "#dce1fb"
+      },
+      fontFamily: {
+        "headline": ["'Space Grotesk'", "sans-serif"],
+        "body": ["'Inter'", "sans-serif"],
+        "label": ["'Inter'", "sans-serif"]
+      },
+      borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
+    },
+  },
+  plugins: [forms, containerQueries],
+}
