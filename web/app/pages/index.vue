@@ -9,12 +9,15 @@
     <AppHeader />
 
     <!-- Main Page Content -->
-    <main id="main-content" class="pt-24 flex-grow focus:outline-none" tabindex="-1">
+    <main
+      id="main-content"
+      class="pt-24 flex-grow focus:outline-none"
+      tabindex="-1"
+    >
       <HeroSection />
-       <AboutMe />
+      <AboutMe />
       <TechStack />
       <ProjectGallery />
-     
     </main>
 
     <!-- Global Footer -->
@@ -23,13 +26,13 @@
 </template>
 
 <script setup lang="ts">
-// SEO Meta configuration utilizing Nuxt composable (overriding/augmenting config defaults if needed)
+//SEO Meta configuration utilizing Nuxt composable (overriding/augmenting config defaults if needed)
 useHead({
   title: 'ENGINEER_CORE | Vue 3 & Nuxt 4 Specialist',
   meta: [
-    { 
-      name: 'description', 
-      content: 'Desarrollador Full Stack enfocado en eficiencia: integrando IA y arquitecturas modernas para resolver problemas reales.' 
+    {
+      name: 'description',
+      content: 'Desarrollador Full Stack enfocado en eficiencia: integrando IA y arquitecturas modernas para resolver problemas reales.'
     }
   ]
 })
